@@ -241,3 +241,106 @@ button:hover {
   font-size: 16px;
   line-height: 1.6;
 }
+/* deal section */
+
+.deals-section {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.deals-section h2 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  color: #e66000;
+}
+
+.subtitle {
+  max-width: 700px;
+  margin: 0px auto 40px auto;
+  font-size: 21px;
+  color: #555;
+}
+
+/* Grid layout */
+.deals-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.left-deals {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+}
+
+.deal-card{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)), url(assets/deal-bloom.png);
+}
+
+.deal-card {
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  min-height: 150px;
+  
+}
+
+.deal-card.large {
+  flex: 2;
+  width: 150px;
+  height: 325px;
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-card.small{
+  align-items: center;
+  justify-content: center;
+}
+
+.deal-text h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.deal-text a {
+  margin-top: 10px;
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: underline;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.large a{
+  font-size: 25px;
+}
+.large h3{
+  font-size: 40px;
+}
+
+.small a {
+  font-size: 16px;
+}
+.small h3{
+  font-size: 20px;
+}
