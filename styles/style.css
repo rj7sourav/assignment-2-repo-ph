@@ -463,3 +463,154 @@ button:hover {
   align-items: center;
   height: 35px;
 }
+
+
+/* mobile responsive */
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .hero-text h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-text {
+    text-align: start;
+  }
+  .cart{
+     text-align: right;
+  }
+  .hero-image{
+   
+  }
+  .cart{
+    margin-left: 350px;
+    position: absolute;
+    margin-bottom: 80px;
+  }
+
+  /* 2nd */
+  .product-section h2 {
+    font-size: 22px;
+  }
+
+  .product-card h3,
+  .product-card .price {
+    font-size: 14px;
+  }
+
+  .product-card button {
+    font-size: 12px;
+}
+.product-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  flex-direction: column;
+  align-items: left;
+  align-content: left;
+}
+
+/* 3rd */
+  .trusted-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .main-image{
+    width: 360px;
+    height: 390px;
+  }
+  .badge{
+    display: none;
+  }
+
+  .text-content {
+    margin-top: 1.5rem;
+    width: 360px;
+    height: 230px;
+    align-content: left;
+    align-items: left;
+  }
+
+  .text-content h2 {
+    font-size: 24px;
+  }
+
+/* 4th */
+
+  .deals-grid {
+    flex-direction: column;
+  }
+
+  .deal-card.large {
+    height: 170px;
+    width: 310px;
+  }
+
+  .left-deals h3, a{
+    font-size: 1rem;
+  }
+  .large h3{
+    font-size: 20px;
+  }
+  .large a{
+    font-size: 16px;
+  }
+  .deals-section h2{
+    font-size: 23px;
+  }
+  .subtitle{
+      font-size: 13px;
+  }
+
+  /* h5 */
+   
+  .hero-section{
+    height: 270px;
+    width: 390px;
+  } 
+  .overlay h1{
+    font-size: 20px;
+  }
+  .subscription-form{
+    width: 320px;
+    height: 50px;
+  }
+  .subscription-form button{
+    padding: 0 20px;
+  }
+
+  /* 6th */
+
+  .footer-container{
+    width: 390px;
+    height: 860px;
+    padding: 20px 50px 50px 50px;
+  }
+  .footer-links{
+    justify-content: left;
+    justify-items: left;
+    flex: none;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 30px;
+  }
+  .footer-brand p{
+    font-size: 16px;
+  }
+  
+}
