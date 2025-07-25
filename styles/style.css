@@ -344,3 +344,60 @@ button:hover {
 .small h3{
   font-size: 20px;
 }
+/* join section */
+
+.hero-section {
+  background-image: url('assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 533px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  color: white;
+}
+
+
+.overlay h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.subscription-form {
+  display: flex;
+  margin: 0 auto;
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 800px;
+  height: 50px;
+}
+
+.subscription-form input[type="email"] {
+  flex: 1;
+  padding: 15px ;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+
+}
+
+.subscription-form button {
+  padding: 0px 50px;
+  background-color: #f4511e;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.subscription-form button:hover {
+  background-color: #d84315;
+}
